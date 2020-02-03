@@ -6,7 +6,7 @@ def hello(array)
     binding.pry
     yield(array[i])
     i += 1
- hello(["Tim", "Tom", "Jim"]) { |name| puts "Hi, #{name}" }
+ 
  end
 
 end
